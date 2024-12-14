@@ -1,11 +1,11 @@
-from Flight import Flight
-from Trip import Trip
-from Booking import Booking
+from flight import Flight
+from trip import Trip
+from booking import Booking
 
 def main():
     # Создание рейсов
-    flight1 = Flight("AA123", "New York", "Los Angeles", "2023-10-01 10:00", "2023-10-01 13:00", 100)
-    flight2 = Flight("AA124", "New York", "Chicago", "2023-10-01 14:00", "2023-10-01 16:00", 50)
+    flight1 = Flight("AA123", "Bishkek", "Osh", "2023-10-01 10:00", "2023-10-01 13:00", 100)
+    flight2 = Flight("AA124", "Bishkek", "Osh", "2023-10-01 14:00", "2023-10-01 16:00", 50)
     
     # Создание путешествия
     trip = Trip()

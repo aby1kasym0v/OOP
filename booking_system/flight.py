@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 
 class Flight:
     def __init__(self, flight_number, departure_city, arrival_city, departure_time, arrival_time, total_seats):
